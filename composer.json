@@ -1,0 +1,22 @@
+{
+    "name": "renegare/constants",
+    "description": "config yaml aggregator",
+    "keywords": ["constants", "renegare"],
+    "license": "MIT",
+    "autoload": {"psr-4": {"Renegare\\Constants\\": "src"}},
+
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/yaml": ">=2.0.4"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*",
+        "mikey179/vfsStream": "1.3.0",
+        "satooshi/php-coveralls": "dev-master"
+    },
+
+    "scripts": {
+        "test": "phpunit"
+    }
+}
